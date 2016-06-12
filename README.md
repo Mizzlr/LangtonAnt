@@ -11,5 +11,12 @@ by Processing 3
 Open the Processing 3 IDE 
 Goto File -> Sketchbook -> LangtonAnt
 
-Run the sketch 
+Run the sketch
+
+## Links
+
+* Wikipedia -- https://en.wikipedia.org/wiki/Langton's_ant
+* My Youtube Channel --    
+* My Tech Blog -- https://mizzlrblog.wordpress.com
+
 
