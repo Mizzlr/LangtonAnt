@@ -66,7 +66,12 @@ void draw(){
   background(255);
   drawBoard();
   move();
-  saveFrame("frames/#####.tga");
+  // I used below line to make video of the
+  // simulation. It saves the frames in a 
+  // folder called farmes. Then used the 
+  // MovieMaker tool in Tools option to
+  // create the actual video.
+  //saveFrame("frames/#####.tga");
 }
 
 void move(){
@@ -94,10 +99,6 @@ void move(){
 void drawBoard(){
   // computer graphics function to 
   // plot the grid and ant
-  fill(0,255,0);
-  text("Step: " + iter, 10, 10);
-
-  
   noStroke();
   // draw each cell of the grid
   for(int i = 0; i < gridSize; i ++)
@@ -114,4 +115,10 @@ void drawBoard(){
   rect(cellStartX + antCol * cellSize,
     cellStartY + antRow * cellSize,
     cellSize, cellSize);
+  
+  fill(0,0,255);
+  text(" Simulation of Langton's Ant", 10, 20);
+  fill(0,255,0);
+  text("   Step: " + iter, 330, 20);
+ 
 }

@@ -15,8 +15,9 @@ Run the sketch
 
 ## Links
 
-* Wikipedia -- https://en.wikipedia.org/wiki/Langton's_ant
-* My Youtube Channel --    
-* My Tech Blog -- https://mizzlrblog.wordpress.com
+* Wikipedia --> https://en.wikipedia.org/wiki/Langton's_ant
+* My Youtube Channel --> https://youtu.be/-7UWcwa3H7I   
+* My Tech Blog --> https://mizzlrblog.wordpress.com
+* Processing 3 --> https://processing.org/download/?processing
 
 
